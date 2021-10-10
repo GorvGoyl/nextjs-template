@@ -16,6 +16,9 @@ export default function Home(): JSX.Element {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
+        <h3 className="bg-blue-300 text-blue-900 p-1 rounded my-4">
+          Tailwind CSS included
+        </h3>
         <p className={styles.description}>
           Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
